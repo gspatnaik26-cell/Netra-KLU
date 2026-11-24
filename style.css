@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #08111f;
+    color: #edf4ff;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.topbar {
+    background: #102038;
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 4%;
+    border-bottom: 1px solid #334c72;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-logo {
+    background: #1c79eb;
+    padding: 12px 16px;
+    font-size: 34px;
+    font-weight: bold;
+    font-family:"Courier New";
+    border-radius: 10px;
+}
+
+.brand h1 {
+    color: #54a5ff;
+    letter-spacing: 3px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.brand p {
+    color: #92aed1;
+    font-size: 9px;
+    font-family:Verdana;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #c1d1e6;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Georgia;;
+}
+
+nav a:hover {
+    color: #62abff;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #39d6a0;
+    font-size: 11px;
+    font-family:'Franklin Gothic Medium';
+}
+
+.online-dot {
+    width: 9px;
+    height: 9px;
+    background: #1fc78c;
+    border-radius: 50%;
+}
+
+#clock {
+    color: white;
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+button {
+    background: #287ee8;
+    color: white;
+    border: 0;
+    padding: 13px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Lucida Sans Unicode';
+}
+
+button:hover {
+    background: #1765c3;
+}
+
+
+
+
