@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NETRA - Robot Mission Control</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="topbar">
+
+        <div class="brand">
+            <div class="brand-logo">N</div>
+
+            <div>
+                <h1>NETRA</h1>
+                <p>ROBOT MISSION CONTROL</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#fleet">Fleet</a>
+            <a href="#telemetry">Telemetry</a>
+            <a href="#alerts">Alerts</a>
+        </nav>
+
+        <div class="header-right">
+
+            <span class="online-dot"></span>
+            <span>SYSTEM ONLINE</span>
+
+            <strong id="clock">--:--:--</strong>
+
+            <button id="dispatch-open">
+                + Dispatch Mission
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- DASHBOARD -->
+    <main>
+
+        <section class="dashboard" id="dashboard">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Mission Overview</h2>
+                    <p>Real-time fleet performance and statistics</p>
+                </div>
+
+                <span class="live-status">
+                    <span class="online-dot"></span>
+                    LIVE DATA
+                </span>
+            </div>
+
+
+            <!-- STATISTICS CARDS -->
+            <div class="stats-grid">
+
+                <!-- CARD 1 -->
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>ACTIVE ROVERS</span>
+                        <span class="stat-icon">🤖</span>
+                    </div>
+
+                    <h2>08</h2>
+
+                    <p class="positive">
+                        ● All systems operational
+                    </p>
+
+                </div>
+
+
+                <!-- CARD 2 -->
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>AVAILABLE BATTERIES</span>
+                        <span class="stat-icon">🔋</span>
+                    </div>
+
+                    <h2>76%</h2>
+
+                    <p class="positive">
+                        ● Battery status healthy
+                    </p>
+
+                </div>
+
+
+                <!-- CARD 3 -->
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>OPEN ALERTS</span>
+                        <span class="stat-icon">⚠️</span>
+                    </div>
+
+                    <h2>03</h2>
+
+                    <p class="warning">
+                        ● Requires attention
+                    </p>
+
+                </div>
+
+
+                <!-- CARD 4 -->
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>DISTANCE TRAVELLED TODAY</span>
+                        <span class="stat-icon">📍</span>
+                    </div>
+
+                    <h2>24.8 <small>KM</small></h2>
+
+                    <p class="positive">
+                        ● Fleet travel distance
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
